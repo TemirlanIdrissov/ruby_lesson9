@@ -17,7 +17,7 @@ def store(i)
 	  product[:name]
 
 	elsif input_price < product[:price]
-	  "Внесите еще #{product[:price] - input_price}"
+	  "#{product[:name]} Внесите еще #{product[:price] - input_price}"
 
 	else
 	  product[:quantity] -= 1
